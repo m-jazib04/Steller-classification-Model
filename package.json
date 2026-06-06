@@ -1,0 +1,15 @@
+{
+  "name": "stellar-classification",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stellar Classification AI Web Application - Monorepo root",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "build:frontend": "cd frontend && npm run build",
+    "start:frontend": "cd frontend && npm start",
+    "train:model": "python backend/scripts/train_model.py",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "pip install -r requirements.txt"
+  }
+}

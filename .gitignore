@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+.env.local
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pkl
+*.h5
+*.joblib
